@@ -1,0 +1,30 @@
+ERT_summary:
+  components:
+    System.MainMemory:
+      idle:
+        energy: 0.025
+      read:
+        average energy: 19.951
+        max energy: 39.878
+        min energy: 0.025
+      write:
+        average energy: 16.212
+        max energy: 32.398
+        min energy: 0.025
+    System.PE.Buffer:
+      idle:
+        energy: 0
+      read:
+        energy: 64
+      write:
+        energy: 64
+    System.PE.MACC:
+      idle:
+        energy: 0.003
+      mac_gated:
+        energy: 0.022
+      mac_random:
+        energy: 0.603
+      mac_reused:
+        energy: 0.516
+  version: null

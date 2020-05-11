@@ -1,0 +1,36 @@
+
+DRAM [ Weights:36864 Inputs:53231616 Outputs:52301824 ] 
+-------------------------------------------------------
+| for Q in [0:2)
+|   for N in [0:16)
+|     for K in [0:2)
+|       for C in [0:2)
+
+L2 [ Inputs:839040 Outputs:817216 ] 
+-----------------------------------
+|         for P in [0:226)
+|           for K in [0:16) (Spatial-X)
+
+Texture [ ] 
+-----------
+|             for Q in [0:1)
+|               for S in [0:3) (Spatial-Y)
+
+SharedMemInput [ Inputs:10848 ] 
+-------------------------------
+|                 for Q in [0:1)
+
+SharedMemWeight [ Weights:192 ] 
+-------------------------------
+|                   for R in [0:3)
+
+SharedMemPsum [ Outputs:226 ] 
+-----------------------------
+|                     for Q in [0:1)
+
+RegisterFile [ ] 
+----------------
+|                       for Q in [0:113)
+|                         for K in [0:2)
+|                           for C in [0:32)
+

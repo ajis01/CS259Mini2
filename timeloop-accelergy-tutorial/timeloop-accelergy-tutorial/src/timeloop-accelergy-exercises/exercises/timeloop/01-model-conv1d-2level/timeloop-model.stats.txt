@@ -1,0 +1,327 @@
+Topology
+--------
+Level 0
+-------
+=== MACC ===
+
+    SPECS
+    -----
+    Word bits            : 8
+    Instances            : 1 (-*-)
+    Energy-per-op        : 0.60 pJ
+
+    STATS
+    -----
+    Utilized instances   : 1
+    Cycles               : 5760
+    Energy (total)       : 3473.28 pJ
+    Area (total)         : 0.00 um^2
+
+Level 1
+-------
+=== Buffer ===
+
+    SPECS
+    -----
+    Shared:
+        Technology           : DRAM
+        Size                 : 7680
+        Word bits            : 8
+        Block size           : 1
+        Cluster size         : 1
+        Instances            : 1 (1*1)
+        Fanout               : 1 (1*1)
+        Read bandwidth       : 2.67
+        Write bandwidth      : 1.67
+        Multiple buffering   : 1.00
+        Effective size       : 7680
+        Min utilization      : 0.00
+        Vector access energy : 64.00 pJ
+        Area                 : 0.00 um^2
+
+    MAPPING
+    -------
+    Loop nest:
+      for P in [0:1920)
+
+    STATS
+    -----
+    Cycles               : 5760
+    Bandwidth throttling : 1.00
+    Weights:
+        Utilized capacity                        : 1
+        Utilized instances (max)                 : 1
+        Utilized clusters (max)                  : 1
+        Scalar reads (per-instance)              : 5760
+        Scalar updates (per-instance)            : 0
+        Scalar fills (per-instance)              : 3
+        Temporal reductions (per-instance)       : 0
+        Address generations (per-cluster)        : 5763
+        Energy (per-scalar-access)               : 64.00 pJ
+        Energy (per-instance)                    : 368832.00 pJ
+        Energy (total)                           : 368832.00 pJ
+        Temporal Reduction Energy (per-instance) : 0.00 pJ
+        Temporal Reduction Energy (total)        : 0.00 pJ
+        Address Generation Energy (per-cluster)  : 0.00 pJ
+        Address Generation Energy (total)        : 0.00 pJ
+        Read Bandwidth (per-instance)            : 1.00 bytes/cycle
+        Read Bandwidth (total)                   : 1.00 bytes/cycle
+        Write Bandwidth (per-instance)           : 0.00 bytes/cycle
+        Write Bandwidth (total)                  : 0.00 bytes/cycle
+    Inputs:
+        Utilized capacity                        : 1920
+        Utilized instances (max)                 : 1
+        Utilized clusters (max)                  : 1
+        Scalar reads (per-instance)              : 5760
+        Scalar updates (per-instance)            : 0
+        Scalar fills (per-instance)              : 1922
+        Temporal reductions (per-instance)       : 0
+        Address generations (per-cluster)        : 7682
+        Energy (per-scalar-access)               : 64.00 pJ
+        Energy (per-instance)                    : 491648.00 pJ
+        Energy (total)                           : 491648.00 pJ
+        Temporal Reduction Energy (per-instance) : 0.00 pJ
+        Temporal Reduction Energy (total)        : 0.00 pJ
+        Address Generation Energy (per-cluster)  : 0.00 pJ
+        Address Generation Energy (total)        : 0.00 pJ
+        Read Bandwidth (per-instance)            : 1.00 bytes/cycle
+        Read Bandwidth (total)                   : 1.00 bytes/cycle
+        Write Bandwidth (per-instance)           : 0.33 bytes/cycle
+        Write Bandwidth (total)                  : 0.33 bytes/cycle
+    Outputs:
+        Utilized capacity                        : 1920
+        Utilized instances (max)                 : 1
+        Utilized clusters (max)                  : 1
+        Scalar reads (per-instance)              : 3840
+        Scalar updates (per-instance)            : 5760
+        Scalar fills (per-instance)              : 1920
+        Temporal reductions (per-instance)       : 3840
+        Address generations (per-cluster)        : 7680
+        Energy (per-scalar-access)               : 64.00 pJ
+        Energy (per-instance)                    : 737280.00 pJ
+        Energy (total)                           : 737280.00 pJ
+        Temporal Reduction Energy (per-instance) : 0.00 pJ
+        Temporal Reduction Energy (total)        : 0.00 pJ
+        Address Generation Energy (per-cluster)  : 0.00 pJ
+        Address Generation Energy (total)        : 0.00 pJ
+        Read Bandwidth (per-instance)            : 0.67 bytes/cycle
+        Read Bandwidth (total)                   : 0.67 bytes/cycle
+        Write Bandwidth (per-instance)           : 1.33 bytes/cycle
+        Write Bandwidth (total)                  : 1.33 bytes/cycle
+    Shared:
+        Area (per-instance)                      : 0.00 um2
+
+    NETWORK STATS
+    -------------
+    Weights:
+        Fanout                                  : 1
+        Fanout (distributed)                    : 0
+        Multicast factor                        : 1
+        Ingresses                               : 5760
+            @multicast 1: 5760
+        Link transfers                          : 0
+        Spatial reductions                      : 0
+        Average number of hops                  : 0.50
+        Energy (per-hop)                        : 0.00 fJ
+        Energy (per-instance)                   : 0.00 pJ
+        Energy (total)                          : 0.00 pJ
+        Link transfer energy (per-instance)     : 0.00 pJ
+        Link transfer energy (total)            : 0.00 pJ
+        Spatial Reduction Energy (per-instance) : 0.00 pJ
+        Spatial Reduction Energy (total)        : 0.00 pJ
+    Inputs:
+        Fanout                                  : 1
+        Fanout (distributed)                    : 0
+        Multicast factor                        : 1
+        Ingresses                               : 5760
+            @multicast 1: 5760
+        Link transfers                          : 0
+        Spatial reductions                      : 0
+        Average number of hops                  : 0.50
+        Energy (per-hop)                        : 0.00 fJ
+        Energy (per-instance)                   : 0.00 pJ
+        Energy (total)                          : 0.00 pJ
+        Link transfer energy (per-instance)     : 0.00 pJ
+        Link transfer energy (total)            : 0.00 pJ
+        Spatial Reduction Energy (per-instance) : 0.00 pJ
+        Spatial Reduction Energy (total)        : 0.00 pJ
+    Outputs:
+        Fanout                                  : 1
+        Fanout (distributed)                    : 0
+        Multicast factor                        : 1
+        Ingresses                               : 9600
+            @multicast 1: 9600
+        Link transfers                          : 0
+        Spatial reductions                      : 0
+        Average number of hops                  : 0.50
+        Energy (per-hop)                        : 0.00 fJ
+        Energy (per-instance)                   : 0.00 pJ
+        Energy (total)                          : 0.00 pJ
+        Link transfer energy (per-instance)     : 0.00 pJ
+        Link transfer energy (total)            : 0.00 pJ
+        Spatial Reduction Energy (per-instance) : 0.00 pJ
+        Spatial Reduction Energy (total)        : 0.00 pJ
+
+Level 2
+-------
+=== MainMemory ===
+
+    SPECS
+    -----
+    Shared:
+        Technology           : SRAM
+        Size                 : 262144
+        Word bits            : 8
+        Block size           : 8
+        Cluster size         : 1
+        Instances            : 1 (1*1)
+        Fanout               : 1 (1*1)
+        Read bandwidth       : 0.33
+        Write bandwidth      : 0.33
+        Multiple buffering   : 1.00
+        Effective size       : 262144
+        Min utilization      : 0.00
+        Vector access energy : 39.88 pJ
+        Area                 : 0.00 um^2
+
+    MAPPING
+    -------
+    Loop nest:
+      for R in [0:3)
+
+    STATS
+    -----
+    Cycles               : 5760
+    Bandwidth throttling : 1.00
+    Weights:
+        Utilized capacity                        : 3
+        Utilized instances (max)                 : 1
+        Utilized clusters (max)                  : 1
+        Scalar reads (per-instance)              : 3
+        Scalar updates (per-instance)            : 0
+        Scalar fills (per-instance)              : 0
+        Temporal reductions (per-instance)       : 0
+        Address generations (per-cluster)        : 3
+        Energy (per-scalar-access)               : 13.29 pJ
+        Energy (per-instance)                    : 39.88 pJ
+        Energy (total)                           : 39.88 pJ
+        Temporal Reduction Energy (per-instance) : 0.00 pJ
+        Temporal Reduction Energy (total)        : 0.00 pJ
+        Address Generation Energy (per-cluster)  : 0.00 pJ
+        Address Generation Energy (total)        : 0.00 pJ
+        Read Bandwidth (per-instance)            : 0.00 bytes/cycle
+        Read Bandwidth (total)                   : 0.00 bytes/cycle
+        Write Bandwidth (per-instance)           : 0.00 bytes/cycle
+        Write Bandwidth (total)                  : 0.00 bytes/cycle
+    Inputs:
+        Utilized capacity                        : 1922
+        Utilized instances (max)                 : 1
+        Utilized clusters (max)                  : 1
+        Scalar reads (per-instance)              : 1922
+        Scalar updates (per-instance)            : 0
+        Scalar fills (per-instance)              : 0
+        Temporal reductions (per-instance)       : 0
+        Address generations (per-cluster)        : 1922
+        Energy (per-scalar-access)               : 5.00 pJ
+        Energy (per-instance)                    : 9610.60 pJ
+        Energy (total)                           : 9610.60 pJ
+        Temporal Reduction Energy (per-instance) : 0.00 pJ
+        Temporal Reduction Energy (total)        : 0.00 pJ
+        Address Generation Energy (per-cluster)  : 0.00 pJ
+        Address Generation Energy (total)        : 0.00 pJ
+        Read Bandwidth (per-instance)            : 0.33 bytes/cycle
+        Read Bandwidth (total)                   : 0.33 bytes/cycle
+        Write Bandwidth (per-instance)           : 0.00 bytes/cycle
+        Write Bandwidth (total)                  : 0.00 bytes/cycle
+    Outputs:
+        Utilized capacity                        : 1920
+        Utilized instances (max)                 : 1
+        Utilized clusters (max)                  : 1
+        Scalar reads (per-instance)              : 0
+        Scalar updates (per-instance)            : 1920
+        Scalar fills (per-instance)              : 0
+        Temporal reductions (per-instance)       : 0
+        Address generations (per-cluster)        : 1920
+        Energy (per-scalar-access)               : 4.98 pJ
+        Energy (per-instance)                    : 9570.72 pJ
+        Energy (total)                           : 9570.72 pJ
+        Temporal Reduction Energy (per-instance) : 0.00 pJ
+        Temporal Reduction Energy (total)        : 0.00 pJ
+        Address Generation Energy (per-cluster)  : 0.00 pJ
+        Address Generation Energy (total)        : 0.00 pJ
+        Read Bandwidth (per-instance)            : 0.00 bytes/cycle
+        Read Bandwidth (total)                   : 0.00 bytes/cycle
+        Write Bandwidth (per-instance)           : 0.33 bytes/cycle
+        Write Bandwidth (total)                  : 0.33 bytes/cycle
+    Shared:
+        Area (per-instance)                      : 0.00 um2
+
+    NETWORK STATS
+    -------------
+    Weights:
+        Fanout                                  : 1
+        Fanout (distributed)                    : 0
+        Multicast factor                        : 1
+        Ingresses                               : 3
+            @multicast 1: 3
+        Link transfers                          : 0
+        Spatial reductions                      : 0
+        Average number of hops                  : 0.50
+        Energy (per-hop)                        : 0.00 fJ
+        Energy (per-instance)                   : 0.00 pJ
+        Energy (total)                          : 0.00 pJ
+        Link transfer energy (per-instance)     : 0.00 pJ
+        Link transfer energy (total)            : 0.00 pJ
+        Spatial Reduction Energy (per-instance) : 0.00 pJ
+        Spatial Reduction Energy (total)        : 0.00 pJ
+    Inputs:
+        Fanout                                  : 1
+        Fanout (distributed)                    : 0
+        Multicast factor                        : 1
+        Ingresses                               : 1922
+            @multicast 1: 1922
+        Link transfers                          : 0
+        Spatial reductions                      : 0
+        Average number of hops                  : 0.50
+        Energy (per-hop)                        : 0.00 fJ
+        Energy (per-instance)                   : 0.00 pJ
+        Energy (total)                          : 0.00 pJ
+        Link transfer energy (per-instance)     : 0.00 pJ
+        Link transfer energy (total)            : 0.00 pJ
+        Spatial Reduction Energy (per-instance) : 0.00 pJ
+        Spatial Reduction Energy (total)        : 0.00 pJ
+    Outputs:
+        Fanout                                  : 1
+        Fanout (distributed)                    : 0
+        Multicast factor                        : 1
+        Ingresses                               : 1920
+            @multicast 1: 1920
+        Link transfers                          : 0
+        Spatial reductions                      : 0
+        Average number of hops                  : 0.50
+        Energy (per-hop)                        : 0.00 fJ
+        Energy (per-instance)                   : 0.00 pJ
+        Energy (total)                          : 0.00 pJ
+        Link transfer energy (per-instance)     : 0.00 pJ
+        Link transfer energy (total)            : 0.00 pJ
+        Spatial Reduction Energy (per-instance) : 0.00 pJ
+        Spatial Reduction Energy (total)        : 0.00 pJ
+
+Total topology energy: 1620454.48 pJ
+Total topology area: 0.00 um^2
+Max topology cycles: 5760
+
+Engine Stats
+------------
+Utilization: 1.00
+Cycles: 5760
+Energy: 1.62 uJ
+Area: 0.00 mm^2
+
+MACCs = 5760
+pJ/MACC
+    MACC                    = 0.60
+    Buffer                  = 277.39
+    MainMemory              = 3.34
+    Total                   = 281.33
+

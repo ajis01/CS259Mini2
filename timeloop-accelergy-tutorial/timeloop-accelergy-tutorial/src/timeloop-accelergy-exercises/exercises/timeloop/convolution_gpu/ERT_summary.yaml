@@ -1,0 +1,85 @@
+ERT_summary:
+  components:
+    System.DRAM:
+      idle:
+        energy: 0
+      read:
+        energy: 512
+      write:
+        energy: 512
+    System.V100.L2:
+      idle:
+        energy: 0
+      read:
+        average energy: 1.0
+        max energy: 1
+        min energy: 1
+      write:
+        average energy: 1.0
+        max energy: 1
+        min energy: 1
+    System.V100.SM.FP32cores[0..79]:
+      idle:
+        energy: 0
+      mac_gated:
+        energy: 1
+      mac_random:
+        energy: 1
+      mac_reused:
+        energy: 1
+    System.V100.SM.RegisterFile[0..79]:
+      idle:
+        energy: 0
+      read:
+        average energy: 1.0
+        max energy: 1
+        min energy: 1
+      write:
+        average energy: 1.0
+        max energy: 1
+        min energy: 1
+    System.V100.SM.SharedMemInput[0..79]:
+      idle:
+        energy: 0
+      read:
+        average energy: 1.0
+        max energy: 1
+        min energy: 1
+      write:
+        average energy: 1.0
+        max energy: 1
+        min energy: 1
+    System.V100.SM.SharedMemPsum[0..79]:
+      idle:
+        energy: 0
+      read:
+        average energy: 1.0
+        max energy: 1
+        min energy: 1
+      write:
+        average energy: 1.0
+        max energy: 1
+        min energy: 1
+    System.V100.SM.SharedMemWeight[0..79]:
+      idle:
+        energy: 0
+      read:
+        average energy: 1.0
+        max energy: 1
+        min energy: 1
+      write:
+        average energy: 1.0
+        max energy: 1
+        min energy: 1
+    System.V100.Texture[0..15]:
+      idle:
+        energy: 0
+      read:
+        average energy: 1.0
+        max energy: 1
+        min energy: 1
+      write:
+        average energy: 1.0
+        max energy: 1
+        min energy: 1
+  version: null
