@@ -1,0 +1,94 @@
+architecture:
+  version: 0.2
+
+  subtree:
+    - name: System
+      local:
+        - name: DRAM
+          class: DRAM
+          attributes:
+            width: 64
+            word-bits: 16
+            block-size: 4
+            sizeGB: 12 
+            read_bandwidth: 1 #653/1530*1024
+            write_bandwidth: 2     
+
+
+      subtree:
+        - name: V100
+          attributes:
+            technology: 12nm
+          local:
+            - name: Texture[0..15]
+              class: SRAM
+              attributes:
+                #depth: 16
+                sizeKB: 131072 #65536×32768/1024/16
+                width: 16
+                word-bits: 16
+                block-size: 1
+                meshX: 16
+            - name: L2 
+              class: SRAM
+              attributes:
+                #depth: 16384
+                sizeKB: 6144 #6144 
+                width: 64
+                block-size: 4
+                word-bits: 16
+                meshX: 1
+                read_bandwidth: 1 #2400/1530*1024
+                write_bandwidth: 2
+          subtree:
+            - name: SM
+              local:
+                - name: RegisterFile[0..127] 
+                  class: regfile
+                  attributes:
+                    #depth: 16
+                    sizeKB: 256
+                    width: 16
+                    block-size: 1
+                    word-bits: 16
+                    meshX: 16
+                    read_bandwidth: 1
+                    write_bandwidth: 2
+                - name: SharedMemPsum[0..127] 
+                  class: regfile
+                  attributes:
+                    #depth: 16
+                    sizeKB: 64
+                    width: 16
+                    block-size: 1
+                    word-bits: 16
+                    meshX: 16
+                    read_bandwidth: 1
+                    write_bandwidth: 2
+                - name: SharedMemWeight[0..127]
+                  class: regfile
+                  attributes:
+                    #depth: 192
+                    sizeKB: 64
+                    width: 16
+                    block-size: 1
+                    word-bits: 16
+                    meshX: 16
+                    read_bandwidth: 1
+                    write_bandwidth: 2
+                - name: SharedMemInput[0..127]
+                  class: regfile
+                  attributes:
+                    #depth: 12
+                    sizeKB: 64
+                    width: 16
+                    block-size: 1
+                    word-bits: 16
+                    meshX: 16
+                    read_bandwidth: 1
+                    write_bandwidth: 2
+                - name: FP32cores[0..127]
+                  class: fpmac
+                  instances: 32
+                  attributes:
+                    datawidth: 32

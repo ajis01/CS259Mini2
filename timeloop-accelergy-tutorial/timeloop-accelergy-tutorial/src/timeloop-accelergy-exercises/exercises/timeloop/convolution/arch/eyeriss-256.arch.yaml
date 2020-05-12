@@ -35,7 +35,7 @@ architecture:
                 read_bandwidth: 16
                 write_bandwidth: 16
           subtree:
-            - name: PE[0..255]
+            - name: PE[0..167]
               local:
                 - name: PsumRegFile
                   class: regfile
@@ -50,7 +50,7 @@ architecture:
                 - name: WeightRegFile
                   class: regfile
                   attributes:
-                    depth: 192
+                    depth: 168
                     width: 16
                     block-size: 1
                     word-bits: 16

@@ -1,0 +1,254 @@
+ERT:
+  tables:
+    System.DRAM:
+      idle:
+        arguments: null
+        energy: 0
+      read:
+        arguments: null
+        energy: 512
+      write:
+        arguments: null
+        energy: 512
+    System.V100.L2:
+      idle:
+        arguments: null
+        energy: 0
+      read:
+      - arguments:
+          address_delta: 0
+          data_delta: 0
+        energy: 1
+      - arguments:
+          address_delta: 0
+          data_delta: 1
+        energy: 1
+      - arguments:
+          address_delta: 1
+          data_delta: 0
+        energy: 1
+      - arguments:
+          address_delta: 1
+          data_delta: 1
+        energy: 1
+      write:
+      - arguments:
+          address_delta: 0
+          data_delta: 0
+        energy: 1
+      - arguments:
+          address_delta: 0
+          data_delta: 1
+        energy: 1
+      - arguments:
+          address_delta: 1
+          data_delta: 0
+        energy: 1
+      - arguments:
+          address_delta: 1
+          data_delta: 1
+        energy: 1
+    System.V100.SM.FP32cores:
+      idle:
+        arguments: null
+        energy: 0
+      mac_gated:
+        arguments: null
+        energy: 1
+      mac_random:
+        arguments: null
+        energy: 1
+      mac_reused:
+        arguments: null
+        energy: 1
+    System.V100.SM.RegisterFile:
+      idle:
+        arguments: null
+        energy: 0
+      read:
+      - arguments:
+          address_delta: 0
+          data_delta: 0
+        energy: 1
+      - arguments:
+          address_delta: 0
+          data_delta: 1
+        energy: 1
+      - arguments:
+          address_delta: 1
+          data_delta: 0
+        energy: 1
+      - arguments:
+          address_delta: 1
+          data_delta: 1
+        energy: 1
+      write:
+      - arguments:
+          address_delta: 0
+          data_delta: 0
+        energy: 1
+      - arguments:
+          address_delta: 0
+          data_delta: 1
+        energy: 1
+      - arguments:
+          address_delta: 1
+          data_delta: 0
+        energy: 1
+      - arguments:
+          address_delta: 1
+          data_delta: 1
+        energy: 1
+    System.V100.SM.SharedMemInput:
+      idle:
+        arguments: null
+        energy: 0
+      read:
+      - arguments:
+          address_delta: 0
+          data_delta: 0
+        energy: 1
+      - arguments:
+          address_delta: 0
+          data_delta: 1
+        energy: 1
+      - arguments:
+          address_delta: 1
+          data_delta: 0
+        energy: 1
+      - arguments:
+          address_delta: 1
+          data_delta: 1
+        energy: 1
+      write:
+      - arguments:
+          address_delta: 0
+          data_delta: 0
+        energy: 1
+      - arguments:
+          address_delta: 0
+          data_delta: 1
+        energy: 1
+      - arguments:
+          address_delta: 1
+          data_delta: 0
+        energy: 1
+      - arguments:
+          address_delta: 1
+          data_delta: 1
+        energy: 1
+    System.V100.SM.SharedMemPsum:
+      idle:
+        arguments: null
+        energy: 0
+      read:
+      - arguments:
+          address_delta: 0
+          data_delta: 0
+        energy: 1
+      - arguments:
+          address_delta: 0
+          data_delta: 1
+        energy: 1
+      - arguments:
+          address_delta: 1
+          data_delta: 0
+        energy: 1
+      - arguments:
+          address_delta: 1
+          data_delta: 1
+        energy: 1
+      write:
+      - arguments:
+          address_delta: 0
+          data_delta: 0
+        energy: 1
+      - arguments:
+          address_delta: 0
+          data_delta: 1
+        energy: 1
+      - arguments:
+          address_delta: 1
+          data_delta: 0
+        energy: 1
+      - arguments:
+          address_delta: 1
+          data_delta: 1
+        energy: 1
+    System.V100.SM.SharedMemWeight:
+      idle:
+        arguments: null
+        energy: 0
+      read:
+      - arguments:
+          address_delta: 0
+          data_delta: 0
+        energy: 1
+      - arguments:
+          address_delta: 0
+          data_delta: 1
+        energy: 1
+      - arguments:
+          address_delta: 1
+          data_delta: 0
+        energy: 1
+      - arguments:
+          address_delta: 1
+          data_delta: 1
+        energy: 1
+      write:
+      - arguments:
+          address_delta: 0
+          data_delta: 0
+        energy: 1
+      - arguments:
+          address_delta: 0
+          data_delta: 1
+        energy: 1
+      - arguments:
+          address_delta: 1
+          data_delta: 0
+        energy: 1
+      - arguments:
+          address_delta: 1
+          data_delta: 1
+        energy: 1
+    System.V100.Texture:
+      idle:
+        arguments: null
+        energy: 0
+      read:
+      - arguments:
+          address_delta: 0
+          data_delta: 0
+        energy: 1
+      - arguments:
+          address_delta: 0
+          data_delta: 1
+        energy: 1
+      - arguments:
+          address_delta: 1
+          data_delta: 0
+        energy: 1
+      - arguments:
+          address_delta: 1
+          data_delta: 1
+        energy: 1
+      write:
+      - arguments:
+          address_delta: 0
+          data_delta: 0
+        energy: 1
+      - arguments:
+          address_delta: 0
+          data_delta: 1
+        energy: 1
+      - arguments:
+          address_delta: 1
+          data_delta: 0
+        energy: 1
+      - arguments:
+          address_delta: 1
+          data_delta: 1
+        energy: 1
+  version: 0.2

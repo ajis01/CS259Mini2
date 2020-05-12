@@ -1,0 +1,38 @@
+[  4] Utilization = 0.01 | pJ/MACC =  134.228
+[  5] Utilization = 0.01 | pJ/MACC =  134.228
+[  5] Utilization = 0.01 | pJ/MACC =   23.353
+[  4] Utilization = 0.01 | pJ/MACC =   23.353
+[  6] Utilization = 0.01 | pJ/MACC =  134.228
+[  6] Utilization = 0.01 | pJ/MACC =   23.353
+[  7] Utilization = 0.01 | pJ/MACC =  134.228
+[  7] Utilization = 0.01 | pJ/MACC =   23.353
+[  3] Utilization = 0.01 | pJ/MACC =  134.228
+[  3] Utilization = 0.01 | pJ/MACC =   23.353
+[  1] Utilization = 0.01 | pJ/MACC =  134.228
+[  1] Utilization = 0.01 | pJ/MACC =   23.353
+[  2] Utilization = 0.01 | pJ/MACC =  134.228
+[  2] Utilization = 0.01 | pJ/MACC =   23.353
+[  0] Utilization = 0.01 | pJ/MACC =  134.228
+[  0] Utilization = 0.01 | pJ/MACC =   23.353
+[  5] Utilization = 0.01 | pJ/MACC =   22.322
+[  4] Utilization = 0.01 | pJ/MACC =   22.322
+[  6] Utilization = 0.01 | pJ/MACC =   22.322
+[  3] Utilization = 0.01 | pJ/MACC =   22.322
+[  7] Utilization = 0.01 | pJ/MACC =   22.322
+[  0] Utilization = 0.01 | pJ/MACC =   22.322
+[  1] Utilization = 0.01 | pJ/MACC =   22.322
+[  2] Utilization = 0.01 | pJ/MACC =   22.322
+[  0] STATEMENT: 1000 invalid mappings (936 fanout, 64 capacity) found since the last valid mapping, terminating search.
+[  1] STATEMENT: 1000 invalid mappings (936 fanout, 64 capacity) found since the last valid mapping, terminating search.
+[  2] STATEMENT: 1000 invalid mappings (936 fanout, 64 capacity) found since the last valid mapping, terminating search.
+[  5] Utilization = 0.01 | pJ/MACC =   22.151
+[  4] Utilization = 0.01 | pJ/MACC =   22.151
+[  3] Utilization = 0.01 | pJ/MACC =   22.151
+[  5] Utilization = 0.01 | pJ/MACC =   21.664
+[  4] Utilization = 0.01 | pJ/MACC =   21.664
+[  3] Utilization = 0.01 | pJ/MACC =   21.664
+[  6] STATEMENT: 1000 invalid mappings (1000 fanout, 0 capacity) found since the last valid mapping, terminating search.
+[  7] STATEMENT: 1000 invalid mappings (1000 fanout, 0 capacity) found since the last valid mapping, terminating search.
+[  5] STATEMENT: 1000 invalid mappings (1000 fanout, 0 capacity) found since the last valid mapping, terminating search.
+[  4] STATEMENT: 1000 invalid mappings (1000 fanout, 0 capacity) found since the last valid mapping, terminating search.
+[  3] STATEMENT: 1000 invalid mappings (1000 fanout, 0 capacity) found since the last valid mapping, terminating search.

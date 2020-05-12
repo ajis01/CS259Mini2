@@ -1,0 +1,37 @@
+[  2] Utilization = 0.01 | pJ/MACC =  134.798
+[  2] Utilization = 0.01 | pJ/MACC =   23.923
+[  4] Utilization = 0.01 | pJ/MACC =  134.798
+[  3] Utilization = 0.01 | pJ/MACC =  134.798
+[  4] Utilization = 0.01 | pJ/MACC =   23.923
+[  3] Utilization = 0.01 | pJ/MACC =   23.923
+[  1] Utilization = 0.01 | pJ/MACC =  134.169
+[  1] Utilization = 0.01 | pJ/MACC =   39.419
+[  0] Utilization = 0.01 | pJ/MACC =  134.169
+[  0] Utilization = 0.01 | pJ/MACC =   39.419
+[  4] Utilization = 0.01 | pJ/MACC =   22.110
+[  1] Utilization = 0.01 | pJ/MACC =   38.034
+[  0] Utilization = 0.01 | pJ/MACC =   38.034
+[  2] Utilization = 0.01 | pJ/MACC =   22.110
+[  5] Utilization = 0.01 | pJ/MACC =   70.040
+[  5] Utilization = 0.01 | pJ/MACC =   22.665
+[  3] Utilization = 0.01 | pJ/MACC =   22.110
+[  6] Utilization = 0.01 | pJ/MACC =   70.040
+[  6] Utilization = 0.01 | pJ/MACC =   22.665
+[  7] Utilization = 0.01 | pJ/MACC =   70.040
+[  7] Utilization = 0.01 | pJ/MACC =   22.665
+[  1] Utilization = 0.01 | pJ/MACC =   23.345
+[  0] Utilization = 0.01 | pJ/MACC =   23.345
+[  4] STATEMENT: 500 suboptimal mappings found since the last upgrade, terminating search.
+[  2] STATEMENT: 500 suboptimal mappings found since the last upgrade, terminating search.
+[  1] Utilization = 0.01 | pJ/MACC =   21.594
+[  3] STATEMENT: 500 suboptimal mappings found since the last upgrade, terminating search.
+[  1] Utilization = 0.01 | pJ/MACC =   21.294
+[  0] Utilization = 0.01 | pJ/MACC =   21.594
+[  0] Utilization = 0.01 | pJ/MACC =   21.294
+[  6] Utilization = 0.01 | pJ/MACC =   22.237
+[  5] Utilization = 0.01 | pJ/MACC =   22.237
+[  7] STATEMENT: 500 suboptimal mappings found since the last upgrade, terminating search.
+[  1] STATEMENT: 500 suboptimal mappings found since the last upgrade, terminating search.
+[  0] STATEMENT: 500 suboptimal mappings found since the last upgrade, terminating search.
+[  6] STATEMENT: 500 suboptimal mappings found since the last upgrade, terminating search.
+[  5] STATEMENT: 500 suboptimal mappings found since the last upgrade, terminating search.

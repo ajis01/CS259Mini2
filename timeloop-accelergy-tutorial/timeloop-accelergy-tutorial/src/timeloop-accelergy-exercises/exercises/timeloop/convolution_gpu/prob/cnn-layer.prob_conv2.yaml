@@ -41,4 +41,4 @@ problem:
     S: 3 #Ky
     P: 16 # Nx + Kx - 1
     Q: 16 # Ny + Ky - 1
-    N: 16 #Batch Size
+    N: 8 #Batch Size

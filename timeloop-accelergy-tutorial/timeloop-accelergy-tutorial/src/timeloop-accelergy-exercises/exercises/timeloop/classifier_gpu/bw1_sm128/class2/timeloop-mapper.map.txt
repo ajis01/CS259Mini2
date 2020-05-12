@@ -1,0 +1,31 @@
+
+DRAM [ Weights:4194304 Inputs:32768 Outputs:8192 ] 
+--------------------------------------------------
+| for C in [0:2)
+
+L2 [ Inputs:16384 Outputs:8192 ] 
+--------------------------------
+|   for Q in [0:1)
+
+Texture [ ] 
+-----------
+|     for K in [0:64)
+|       for C in [0:128)
+
+SharedMemInput [ Inputs:128 ] 
+-----------------------------
+|         for Q in [0:1)
+
+SharedMemWeight [ Weights:256 ] 
+-------------------------------
+|           for C in [0:16)
+
+SharedMemPsum [ Outputs:128 ] 
+-----------------------------
+|             for K in [0:2)
+
+RegisterFile [ ] 
+----------------
+|               for N in [0:8)
+|                 for K in [0:8)
+
