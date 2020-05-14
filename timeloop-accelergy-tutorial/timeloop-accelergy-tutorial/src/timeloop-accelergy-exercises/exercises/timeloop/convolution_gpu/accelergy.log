@@ -4,15 +4,15 @@
 #===================================================================================#
 
 Info: architecture related info found in arch/gpu.arch.yaml 
-Warn: File contains unrecognized information: mapper/mapper.yaml mapper 
- Accelergy only recognizes the following keys 
-['architecture', 'compound_components', 'action_counts', 'ERT', 'flattened_architecture']
-
 Warn: File contains unrecognized information: constraints/cnn-layer-gpu.constraints.yaml mapspace_constraints 
  Accelergy only recognizes the following keys 
 ['architecture', 'compound_components', 'action_counts', 'ERT', 'flattened_architecture']
 
-Warn: File contains unrecognized information: prob/cnn-layer.prob_conv2.yaml problem 
+Warn: File contains unrecognized information: mapper/mapper.yaml mapper 
+ Accelergy only recognizes the following keys 
+['architecture', 'compound_components', 'action_counts', 'ERT', 'flattened_architecture']
+
+Warn: File contains unrecognized information: prob/cnn-layer.prob_conv1.yaml problem 
  Accelergy only recognizes the following keys 
 ['architecture', 'compound_components', 'action_counts', 'ERT', 'flattened_architecture']
 

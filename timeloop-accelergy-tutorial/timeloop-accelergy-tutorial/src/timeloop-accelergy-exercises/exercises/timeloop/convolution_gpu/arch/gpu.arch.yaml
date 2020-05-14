@@ -11,8 +11,8 @@ architecture:
             word-bits: 16
             block-size: 4
             sizeGB: 12 
-            read_bandwidth: 1 #653/1530*1024
-            write_bandwidth: 1     
+            read_bandwidth: 437 #653/1530*1024
+            write_bandwidth: 437     
 
 
       subtree:
@@ -33,17 +33,17 @@ architecture:
               class: SRAM
               attributes:
                 #depth: 16384
-                sizeKB: 6144 #6144 
+                sizeKB: 24576 #6144 
                 width: 64
                 block-size: 4
                 word-bits: 16
                 meshX: 1
-                read_bandwidth: 1 #2400/1530*1024
-                write_bandwidth: 1
+                read_bandwidth: 1606 #2400/1530*1024
+                write_bandwidth: 1606
           subtree:
             - name: SM
               local:
-                - name: RegisterFile[0..127] 
+                - name: RegisterFile[0..79] 
                   class: regfile
                   attributes:
                     #depth: 16
@@ -52,42 +52,42 @@ architecture:
                     block-size: 1
                     word-bits: 16
                     meshX: 16
-                    read_bandwidth: 1
-                    write_bandwidth: 1
-                - name: SharedMemPsum[0..127] 
+                    read_bandwidth: 4
+                    write_bandwidth: 4
+                - name: SharedMemPsum[0..79] 
                   class: regfile
                   attributes:
                     #depth: 16
-                    sizeKB: 64
+                    sizeKB: 32
                     width: 16
                     block-size: 1
                     word-bits: 16
                     meshX: 16
-                    read_bandwidth: 1
-                    write_bandwidth: 1
-                - name: SharedMemWeight[0..127]
+                    read_bandwidth: 4
+                    write_bandwidth: 4
+                - name: SharedMemWeight[0..79]
                   class: regfile
                   attributes:
                     #depth: 192
-                    sizeKB: 64
+                    sizeKB: 32
                     width: 16
                     block-size: 1
                     word-bits: 16
                     meshX: 16
-                    read_bandwidth: 1
-                    write_bandwidth: 1
-                - name: SharedMemInput[0..127]
+                    read_bandwidth: 4
+                    write_bandwidth: 4
+                - name: SharedMemInput[0..79]
                   class: regfile
                   attributes:
                     #depth: 12
-                    sizeKB: 64
+                    sizeKB: 32
                     width: 16
                     block-size: 1
                     word-bits: 16
                     meshX: 16
-                    read_bandwidth: 1
-                    write_bandwidth: 1
-                - name: FP32cores[0..127]
+                    read_bandwidth: 4
+                    write_bandwidth: 4
+                - name: FP32cores[0..79]
                   class: fpmac
                   instances: 32
                   attributes:

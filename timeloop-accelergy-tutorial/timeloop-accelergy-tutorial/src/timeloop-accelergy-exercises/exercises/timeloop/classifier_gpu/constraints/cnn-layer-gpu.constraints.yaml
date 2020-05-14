@@ -20,12 +20,12 @@ mapspace_constraints:
     - Outputs
     keep:
     - Inputs
-  #- type: datatype
-  #  target: Texture
-  #  bypass:
-  #  - Inputs
-  #  - Outputs
-  #  - Weights
+  - type: datatype
+    target: Texture
+    bypass:
+    - Inputs
+    - Outputs
+    - Weights
   - type: datatype
     target: L2
     bypass:
@@ -33,11 +33,11 @@ mapspace_constraints:
     keep:
     - Inputs
     - Outputs
-  #- split: 4
-  #  permutation: NPQR SCK
-  #  type: spatial
-  #  target: Texture
-  #  factors: N=1 P=1 Q=1 R=1 S=0
+  - split: 4
+    permutation: NPQR SCK
+    type: spatial
+    target: Texture
+    factors: N=1 P=1 Q=1 R=1 S=0
   - split: 6
     permutation: NCPRS QK
     type: spatial

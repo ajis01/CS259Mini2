@@ -18,7 +18,7 @@ ERT_summary:
         average energy: 1.0
         max energy: 1
         min energy: 1
-    System.V100.SM.FP32cores[0..127]:
+    System.V100.SM.FP32cores[0..79]:
       idle:
         energy: 0
       mac_gated:
@@ -27,7 +27,7 @@ ERT_summary:
         energy: 1
       mac_reused:
         energy: 1
-    System.V100.SM.RegisterFile[0..127]:
+    System.V100.SM.RegisterFile[0..79]:
       idle:
         energy: 0
       read:
@@ -38,7 +38,7 @@ ERT_summary:
         average energy: 1.0
         max energy: 1
         min energy: 1
-    System.V100.SM.SharedMemInput[0..127]:
+    System.V100.SM.SharedMemInput[0..79]:
       idle:
         energy: 0
       read:
@@ -49,7 +49,7 @@ ERT_summary:
         average energy: 1.0
         max energy: 1
         min energy: 1
-    System.V100.SM.SharedMemPsum[0..127]:
+    System.V100.SM.SharedMemPsum[0..79]:
       idle:
         energy: 0
       read:
@@ -60,7 +60,7 @@ ERT_summary:
         average energy: 1.0
         max energy: 1
         min energy: 1
-    System.V100.SM.SharedMemWeight[0..127]:
+    System.V100.SM.SharedMemWeight[0..79]:
       idle:
         energy: 0
       read:

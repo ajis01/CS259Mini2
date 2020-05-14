@@ -1,0 +1,48 @@
+[  0] Utilization = 0.07 | pJ/MACC =    5.488
+[  1] Utilization = 0.07 | pJ/MACC =    5.488
+[  2] Utilization = 0.07 | pJ/MACC =    5.488
+[  5] Utilization = 0.15 | pJ/MACC =    7.443
+[  7] Utilization = 0.07 | pJ/MACC =    6.820
+[  0] Utilization = 0.30 | pJ/MACC =    5.722
+[  1] Utilization = 0.30 | pJ/MACC =    5.722
+[  2] Utilization = 0.15 | pJ/MACC =    7.443
+[  4] Utilization = 0.15 | pJ/MACC =    7.443
+[  7] Utilization = 0.15 | pJ/MACC =    5.545
+[  3] Utilization = 0.15 | pJ/MACC =    7.443
+[  6] Utilization = 0.07 | pJ/MACC =    6.820
+[  2] Utilization = 0.30 | pJ/MACC =    5.722
+[  6] Utilization = 0.15 | pJ/MACC =    5.545
+[  4] Utilization = 0.60 | pJ/MACC =    6.413
+[  7] Utilization = 0.60 | pJ/MACC =    6.036
+[  5] Utilization = 0.60 | pJ/MACC =    6.036
+[  4] Utilization = 0.60 | pJ/MACC =    5.995
+[  6] Utilization = 0.60 | pJ/MACC =    6.036
+[  5] Utilization = 0.60 | pJ/MACC =    5.995
+[  3] Utilization = 0.60 | pJ/MACC =    5.841
+[  4] Utilization = 0.60 | pJ/MACC =    5.841
+[  0] Utilization = 0.60 | pJ/MACC =    6.218
+[  3] Utilization = 0.60 | pJ/MACC =    5.763
+[  6] Utilization = 0.60 | pJ/MACC =    5.995
+[  5] Utilization = 0.60 | pJ/MACC =    5.841
+[  7] Utilization = 0.60 | pJ/MACC =    5.995
+[  2] Utilization = 0.60 | pJ/MACC =    5.841
+[  0] Utilization = 0.60 | pJ/MACC =    6.140
+[  4] Utilization = 0.60 | pJ/MACC =    5.662
+[  7] Utilization = 0.60 | pJ/MACC =    5.662
+[  6] Utilization = 0.60 | pJ/MACC =    5.841
+[  1] Utilization = 0.60 | pJ/MACC =    5.841
+[  0] Utilization = 0.60 | pJ/MACC =    5.837
+[  2] Utilization = 0.60 | pJ/MACC =    5.763
+[  0] Utilization = 0.60 | pJ/MACC =    5.560
+[  5] Utilization = 0.60 | pJ/MACC =    5.662
+[  1] Utilization = 0.60 | pJ/MACC =    5.763
+[  6] Utilization = 0.60 | pJ/MACC =    5.662
+[  1] Utilization = 0.60 | pJ/MACC =    5.560
+[  4] STATEMENT: 500 suboptimal mappings found since the last upgrade, terminating search.
+[  3] STATEMENT: 500 suboptimal mappings found since the last upgrade, terminating search.
+[  7] STATEMENT: 500 suboptimal mappings found since the last upgrade, terminating search.
+[  0] STATEMENT: 500 suboptimal mappings found since the last upgrade, terminating search.
+[  6] STATEMENT: 500 suboptimal mappings found since the last upgrade, terminating search.
+[  5] STATEMENT: 500 suboptimal mappings found since the last upgrade, terminating search.
+[  1] STATEMENT: 500 suboptimal mappings found since the last upgrade, terminating search.
+[  2] STATEMENT: 500 suboptimal mappings found since the last upgrade, terminating search.

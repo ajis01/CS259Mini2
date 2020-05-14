@@ -1,36 +1,35 @@
 
-DRAM [ Weights:2359296 Inputs:1327104 Outputs:1048576 ] 
+DRAM [ Weights:36864 Inputs:53231616 Outputs:52301824 ] 
 -------------------------------------------------------
-| for C in [0:8)
+| for N in [0:8)
+|   for C in [0:8)
 
-L2 [ Inputs:165888 Outputs:1048576 ] 
+L2 [ Inputs:831744 Outputs:6537728 ] 
 ------------------------------------
-|   for K in [0:8)
 |     for N in [0:2)
-|       for P in [0:16)
-|         for Q in [0:16) (Spatial-X)
+|       for P in [0:226)
+|         for K in [0:16) (Spatial-X)
 
 Texture [ ] 
 -----------
 |           for Q in [0:1)
-|             for C in [0:2) (Spatial-Y)
-|               for S in [0:3) (Spatial-Y)
+|             for S in [0:3) (Spatial-Y)
 
-SharedMemInput [ Inputs:384 ] 
+SharedMemInput [ Inputs:5424 ] 
+------------------------------
+|               for Q in [0:1)
+
+SharedMemWeight [ Weights:96 ] 
+------------------------------
+|                 for R in [0:3)
+
+SharedMemPsum [ Outputs:904 ] 
 -----------------------------
-|                 for Q in [0:1)
-
-SharedMemWeight [ Weights:6144 ] 
---------------------------------
-|                   for R in [0:3)
-
-SharedMemPsum [ Outputs:256 ] 
------------------------------
-|                     for K in [0:16)
+|                   for K in [0:2)
 
 RegisterFile [ ] 
 ----------------
-|                       for N in [0:4)
-|                         for K in [0:4)
-|                           for C in [0:32)
+|                     for Q in [0:226)
+|                       for K in [0:2)
+|                         for C in [0:8)
 
